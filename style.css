@@ -5,11 +5,11 @@
 }
 
 html {
-    font-size: clamp(0.625rem, 0.307rem + 1.59vw, 1.5rem);
+    font-size: clamp(0.75rem, 0.477rem + 1.36vw, 1.5rem);
 }
 
 body {
-    background-color: red;
+    background-color: #d9d9d9;
 }
 
 h1 {
