@@ -172,6 +172,12 @@ button:active {
     margin: 0 auto;
 }
 
+.count {
+    position: absolute;
+    right: 1rem;
+    bottom: 3rem;
+}
+
 @media (min-width: 500px) {
     main {
         margin: 1rem 0;

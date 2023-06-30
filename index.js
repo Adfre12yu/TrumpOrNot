@@ -14,6 +14,7 @@ function render(tweet) {
                         <img src="images/trump.jpg" alt="#" class="pfp" />
                         <p class="username">Donald J. Trump</p>
                         <p class="tag">@realDonaldTrump</p>
+                        <p class="count"> ${i + 1}/23</p>
                     </div>
                     <p id="tweet">
                         ${Object.keys(data)[i]}
