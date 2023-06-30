@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-    color: rgba(146, 141, 130, 0.4);
+    color: rgba(146, 141, 130, 0.767);
     text-align: center;
     font-size: 1rem;
     font-weight: 400;
@@ -29,8 +29,8 @@ h2 {
 }
 
 #tweetbox {
-    width: 18.75rem;
-    height: 12.5rem;
+    width: 75vw;
+    height: 50vw;
     background-color: white;
     border-radius: 1rem;
     margin: 0 auto;
@@ -124,5 +124,24 @@ button:active {
 @media (min-width: 500px) {
     main {
         margin: 1rem 0;
+    }
+}
+
+@media (min-width: 400px) {
+    #tweetbox {
+        width: 21rem;
+        height: 14rem;
+    }
+}
+
+@media (max-width: 300px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (max-height: 400px) {
+    html {
+        font-size: clamp(0.625rem, 4vh, 1rem);
     }
 }
