@@ -160,6 +160,18 @@ button:active {
     margin-top: 4rem;
 }
 
+.twitter-share-button {
+    display: block;
+    max-width: fit-content;
+    background-color: #00a3ff;
+    border-radius: 16rem;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    font-size: 0.75rem;
+    margin: 0 auto;
+}
+
 @media (min-width: 500px) {
     main {
         margin: 1rem 0;

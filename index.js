@@ -38,6 +38,12 @@ function render(tweet) {
             <h2 class="final">Your guesses were correct ${Math.round(
                 (numCor / 23) * 100
             )}% of the time!</h2>
+            <a
+            class="twitter-share-button"
+            href="https://twitter.com/intent/tweet?text=Can you beat my score of ${numCor}/23 tweets? Play at adfre12yu.github.io/TrumpOrNot"
+        >
+            <i class="fa-brands fa-twitter"></i> Tweet</a
+        >
             `;
     }
 }
