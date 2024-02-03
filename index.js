@@ -14,7 +14,7 @@ function render(tweet) {
                         <img src="images/trump.jpg" alt="#" class="pfp" />
                         <p class="username">Donald J. Trump</p>
                         <p class="tag">@realDonaldTrump</p>
-                        <p class="count"> ${i + 1}/23</p>
+                        <p class="count"> ${i + 1}/24</p>
                     </div>
                     <p id="tweet">
                         ${Object.keys(data)[i]}
@@ -37,7 +37,7 @@ function render(tweet) {
     } else {
         document.getElementById("mm").innerHTML = `<h2 class="final">Congratulations!</h2>
             <h2 class="final">Your guesses were correct ${Math.round(
-                (numCor / 23) * 100
+                (numCor / 24) * 100
             )}% of the time!</h2>
             <a
             class="twitter-share-button"
