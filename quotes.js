@@ -40,4 +40,6 @@ export default {
         "ai",
     "It's summertime, and the fake news media is still talking about climate change! Can't they see it's all a big hoax? Enjoy the sunshine, folks!":
         "ai",
+    "The Coca Cola company is not happy with me--that's okay, I'll still keep drinking that garbage." :
+        "real"
 };
