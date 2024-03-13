@@ -7,7 +7,7 @@ let numCor = 0;
 let clickable = true;
 
 function render(tweet) {
-    if (i != 23) {
+    if (i != 24) {
         main.innerHTML = `
     <div id="tweetbox" class="white">
                     <div id="profile">
